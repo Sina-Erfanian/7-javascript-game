@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+#score,
+#time-left {
+  padding-left: 10px;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 180px);
+}
+
+.square {
+  border: 1px solid #000;
+}
+
+.mole {
+  background-color: blueviolet;
+}
