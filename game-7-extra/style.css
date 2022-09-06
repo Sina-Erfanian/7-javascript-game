@@ -1,0 +1,43 @@
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 span {
+  color: rgb(121, 115, 115);
+}
+
+.grid {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(34, 32, 32);
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.invader {
+  background-color: rgb(182, 17, 182);
+  border-radius: 10px;
+}
+
+.shooter {
+  background-color: rgb(43, 187, 43);
+}
+
+.laser {
+  background-color: rgb(245, 178, 53);
+}
+
+.boom {
+  background-color: rgb(244, 55, 55);
+}
